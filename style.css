@@ -1,8 +1,15 @@
 /* Box-Sizing Reset with Inheritance (https://css-tricks.com/box-sizing/): */
 :root {
   box-sizing: border-box;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
 }
-
+p {
+  display: flex;
+  color: coral;
+  font-size: 50px;
+}
 *, *:before, *:after {
   box-sizing: inherit;
 }

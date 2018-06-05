@@ -50,3 +50,4 @@ if (superhero1.isAlive) {
     superhero1.secretIdentity + "!"
   );
 }
+
